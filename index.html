@@ -5,7 +5,8 @@
     <meta charset="utf-8" />
     <meta name="description" content="This is a Page for the website of the company." />
     <title>TCRT's Todo List</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="todo.js"></script>
 </head>
 
 <body>
@@ -14,18 +15,18 @@
         <!-- Todo Header -->
         <div class="todo-header">
             <div class="h-text">
-                <span>Todo</span>
+                <span id="header-text">Todo</span>
 
             </div>
             <div class="h-button">
-                <button class="reminder-button">Create A Reminder </button>
+                <button class="reminder-button" onclick="myFunction()">Create New Todo</button>
 
             </div>
         </div>
         <!-- Completed List Container -->
         <div class="completed-conatiner">
-            <div class="completed-item">
-                <div class="circle">
+            <div class="completed-item" style="display: none;" id="organize-todo">
+                <div class="circle" onclick="alert('Congrats, You completed organized Shoots!!!');">
 
                 </div>
                 <div class="task">

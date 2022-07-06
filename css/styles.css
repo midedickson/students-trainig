@@ -4,6 +4,13 @@ body {
 }
 
 
+#bulbImage{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
 
 .main {
     background-color: white;
@@ -67,6 +74,7 @@ body {
     height: 20px;
     border-radius: 50%;
     border: 2px solid red;
+    cursor: pointer;
     margin-left: 10px;
 }
 
